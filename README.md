@@ -4,7 +4,7 @@ SKILIKET
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Swift](https://img.shields.io/badge/swift-5.0-orange)
 
-MyAwesomeApp is an iOS application designed to [briefly describe the app's purpose]. It is built using Swift and Xcode, and is compatible with iOS [minimum version] and above.
+MyAwesomeApp is an iOS application designed to [briefly describe the app's purpose]. It is built using Swift and Xcode, and is compatible with iOS [minimum version] and above. Rosa PAlacios
 
 ## 🚀 Features
 
