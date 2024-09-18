@@ -15,6 +15,7 @@
 		986B9EF22C9922A500BB7F9C /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 986B9EF12C9922A500BB7F9C /* Nunito-VariableFont_wght.ttf */; };
 		986B9EF82C9A10E700BB7F9C /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */; };
 		98F893902C9A21310046DA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F8938F2C9A21310046DA87 /* Assets.xcassets */; };
+		98F893922C9B7E050046DA87 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F893912C9B7E050046DA87 /* SingInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		986B9EF12C9922A500BB7F9C /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-VariableFont_wght.ttf"; path = "../../../Desktop/Nunito/Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		98F8938F2C9A21310046DA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
+		98F893912C9B7E050046DA87 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				8824F8F12C815754002246A0 /* SceneDelegate.swift */,
 				8824F8F32C815754002246A0 /* WelcomeViewController.swift */,
 				986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */,
+				98F893912C9B7E050046DA87 /* SingInViewController.swift */,
 				8824F8F52C815754002246A0 /* Main.storyboard */,
 				98F8938F2C9A21310046DA87 /* Assets.xcassets */,
 				8824F8FA2C815755002246A0 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8824F8F42C815754002246A0 /* WelcomeViewController.swift in Sources */,
+				98F893922C9B7E050046DA87 /* SingInViewController.swift in Sources */,
 				8824F8F02C815754002246A0 /* AppDelegate.swift in Sources */,
 				986B9EF82C9A10E700BB7F9C /* SingUpViewController.swift in Sources */,
 				8824F8F22C815754002246A0 /* SceneDelegate.swift in Sources */,
