@@ -15,7 +15,7 @@
 		986B9EF82C9A10E700BB7F9C /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */; };
 		98F65DFA2CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98F65DF92CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf */; };
 		98F65DFB2CA4F82400FBE344 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8824F8FD2C815755002246A0 /* Info.plist */; };
-		98F893902C9A21310046DA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F8938F2C9A21310046DA87 /* Assets.xcassets */; };
+		98F65DFD2CA4F8DD00FBE344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F65DFC2CA4F8DD00FBE344 /* Assets.xcassets */; };
 		98F893922C9B7E050046DA87 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F893912C9B7E050046DA87 /* SingInViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		8824F8FD2C815755002246A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		98F65DF82CA4F76800FBE344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		98F8938F2C9A21310046DA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
+		98F65DFC2CA4F8DD00FBE344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		98F893912C9B7E050046DA87 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,9 +70,9 @@
 				986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */,
 				98F893912C9B7E050046DA87 /* SingInViewController.swift */,
 				8824F8F52C815754002246A0 /* Main.storyboard */,
-				98F8938F2C9A21310046DA87 /* Assets.xcassets */,
 				8824F8FA2C815755002246A0 /* LaunchScreen.storyboard */,
 				8824F8FD2C815755002246A0 /* Info.plist */,
+				98F65DFC2CA4F8DD00FBE344 /* Assets.xcassets */,
 			);
 			path = skiliket;
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			files = (
 				98F65DFA2CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf in Resources */,
 				8824F8FC2C815755002246A0 /* Base in Resources */,
-				98F893902C9A21310046DA87 /* Assets.xcassets in Resources */,
 				98F65DFB2CA4F82400FBE344 /* Info.plist in Resources */,
+				98F65DFD2CA4F8DD00FBE344 /* Assets.xcassets in Resources */,
 				8824F8F72C815754002246A0 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
