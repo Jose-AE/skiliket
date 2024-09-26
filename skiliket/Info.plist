@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Nunito-VariableFont_wght.ttf</string>
+	</array>
 </dict>
 </plist>

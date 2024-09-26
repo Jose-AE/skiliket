@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  skiliket
 //
-//  Created by Jose Luis on 8/29/24.
+//  Created by Tema10 on 8/29/24.
 //
 
 import UIKit
