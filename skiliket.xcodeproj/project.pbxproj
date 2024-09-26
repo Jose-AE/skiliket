@@ -12,8 +12,9 @@
 		8824F8F42C815754002246A0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8824F8F32C815754002246A0 /* WelcomeViewController.swift */; };
 		8824F8F72C815754002246A0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8824F8F62C815754002246A0 /* Base */; };
 		8824F8FC2C815755002246A0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8824F8FB2C815755002246A0 /* Base */; };
-		986B9EF22C9922A500BB7F9C /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 986B9EF12C9922A500BB7F9C /* Nunito-VariableFont_wght.ttf */; };
 		986B9EF82C9A10E700BB7F9C /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */; };
+		98F65DFA2CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98F65DF92CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf */; };
+		98F65DFB2CA4F82400FBE344 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8824F8FD2C815755002246A0 /* Info.plist */; };
 		98F893902C9A21310046DA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F8938F2C9A21310046DA87 /* Assets.xcassets */; };
 		98F893922C9B7E050046DA87 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F893912C9B7E050046DA87 /* SingInViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,8 +27,8 @@
 		8824F8F62C815754002246A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8824F8FB2C815755002246A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8824F8FD2C815755002246A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		986B9EF12C9922A500BB7F9C /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-VariableFont_wght.ttf"; path = "../../../Desktop/Nunito/Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
+		98F65DF82CA4F76800FBE344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		98F8938F2C9A21310046DA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
 		98F893912C9B7E050046DA87 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,7 +47,7 @@
 		8824F8E32C815754002246A0 = {
 			isa = PBXGroup;
 			children = (
-				986B9EF12C9922A500BB7F9C /* Nunito-VariableFont_wght.ttf */,
+				98F65DF92CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf */,
 				8824F8EE2C815754002246A0 /* skiliket */,
 				8824F8ED2C815754002246A0 /* Products */,
 			);
@@ -134,9 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986B9EF22C9922A500BB7F9C /* Nunito-VariableFont_wght.ttf in Resources */,
+				98F65DFA2CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf in Resources */,
 				8824F8FC2C815755002246A0 /* Base in Resources */,
 				98F893902C9A21310046DA87 /* Assets.xcassets in Resources */,
+				98F65DFB2CA4F82400FBE344 /* Info.plist in Resources */,
 				8824F8F72C815754002246A0 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +175,15 @@
 				8824F8FB2C815755002246A0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		98F65DF92CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98F65DF82CA4F76800FBE344 /* Base */,
+			);
+			name = "Nunito-VariableFont_wght.ttf";
+			path = Nunito;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

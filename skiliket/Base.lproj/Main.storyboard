@@ -326,7 +326,7 @@
                                 <rect key="frame" x="20" y="566.66666666666663" width="300" height="36"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account? " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="URr-Xy-nOj">
-                                        <rect key="frame" x="0.0" y="0.0" width="211.33333333333334" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="211.33333333333334" height="32.666666666666664"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Nunito-Medium" family="Nunito" pointSize="16"/>
                                         <nil key="textColor"/>
