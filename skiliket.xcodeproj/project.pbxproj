@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8433C27D2CA87543008DF1F8 /* LiveSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C27C2CA87543008DF1F8 /* LiveSensorViewController.swift */; };
+		8433C2812CA89E15008DF1F8 /* SensorChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C2802CA89E15008DF1F8 /* SensorChartView.swift */; };
 		8824F8F02C815754002246A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8824F8EF2C815754002246A0 /* AppDelegate.swift */; };
 		8824F8F22C815754002246A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8824F8F12C815754002246A0 /* SceneDelegate.swift */; };
 		8824F8F42C815754002246A0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8824F8F32C815754002246A0 /* WelcomeViewController.swift */; };
@@ -14,12 +16,13 @@
 		8824F8FC2C815755002246A0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8824F8FB2C815755002246A0 /* Base */; };
 		986B9EF82C9A10E700BB7F9C /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */; };
 		98F65DFA2CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98F65DF92CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf */; };
-		98F65DFB2CA4F82400FBE344 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8824F8FD2C815755002246A0 /* Info.plist */; };
 		98F65DFD2CA4F8DD00FBE344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F65DFC2CA4F8DD00FBE344 /* Assets.xcassets */; };
 		98F893922C9B7E050046DA87 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F893912C9B7E050046DA87 /* SingInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8433C27C2CA87543008DF1F8 /* LiveSensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSensorViewController.swift; sourceTree = "<group>"; };
+		8433C2802CA89E15008DF1F8 /* SensorChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorChartView.swift; sourceTree = "<group>"; };
 		8824F8EC2C815754002246A0 /* skiliket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skiliket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8824F8EF2C815754002246A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8824F8F12C815754002246A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +47,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8433C27A2CA87434008DF1F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8824F8F52C815754002246A0 /* Main.storyboard */,
+				8824F8FA2C815755002246A0 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8433C27B2CA87459008DF1F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8824F8EF2C815754002246A0 /* AppDelegate.swift */,
+				8824F8F12C815754002246A0 /* SceneDelegate.swift */,
+				8824F8F32C815754002246A0 /* WelcomeViewController.swift */,
+				986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */,
+				98F893912C9B7E050046DA87 /* SingInViewController.swift */,
+				8433C27C2CA87543008DF1F8 /* LiveSensorViewController.swift */,
+				8433C2802CA89E15008DF1F8 /* SensorChartView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		8824F8E32C815754002246A0 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +90,8 @@
 		8824F8EE2C815754002246A0 /* skiliket */ = {
 			isa = PBXGroup;
 			children = (
-				8824F8EF2C815754002246A0 /* AppDelegate.swift */,
-				8824F8F12C815754002246A0 /* SceneDelegate.swift */,
-				8824F8F32C815754002246A0 /* WelcomeViewController.swift */,
-				986B9EF72C9A10E700BB7F9C /* SingUpViewController.swift */,
-				98F893912C9B7E050046DA87 /* SingInViewController.swift */,
-				8824F8F52C815754002246A0 /* Main.storyboard */,
-				8824F8FA2C815755002246A0 /* LaunchScreen.storyboard */,
+				8433C27B2CA87459008DF1F8 /* Controllers */,
+				8433C27A2CA87434008DF1F8 /* Views */,
 				8824F8FD2C815755002246A0 /* Info.plist */,
 				98F65DFC2CA4F8DD00FBE344 /* Assets.xcassets */,
 			);
@@ -137,7 +158,6 @@
 			files = (
 				98F65DFA2CA4F76800FBE344 /* Nunito-VariableFont_wght.ttf in Resources */,
 				8824F8FC2C815755002246A0 /* Base in Resources */,
-				98F65DFB2CA4F82400FBE344 /* Info.plist in Resources */,
 				98F65DFD2CA4F8DD00FBE344 /* Assets.xcassets in Resources */,
 				8824F8F72C815754002246A0 /* Base in Resources */,
 			);
@@ -152,6 +172,8 @@
 			files = (
 				8824F8F42C815754002246A0 /* WelcomeViewController.swift in Sources */,
 				98F893922C9B7E050046DA87 /* SingInViewController.swift in Sources */,
+				8433C2812CA89E15008DF1F8 /* SensorChartView.swift in Sources */,
+				8433C27D2CA87543008DF1F8 /* LiveSensorViewController.swift in Sources */,
 				8824F8F02C815754002246A0 /* AppDelegate.swift in Sources */,
 				986B9EF82C9A10E700BB7F9C /* SingUpViewController.swift in Sources */,
 				8824F8F22C815754002246A0 /* SceneDelegate.swift in Sources */,
