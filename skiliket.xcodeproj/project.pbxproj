@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C93F22D2CB8F7C40054CD97 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93F22C2CB8F7C40054CD97 /* NewsCollectionViewCell.swift */; };
+		7C93F22F2CB9E56C0054CD97 /* EditPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C93F22E2CB9E56C0054CD97 /* EditPostViewController.swift */; };
 		8433C27D2CA87543008DF1F8 /* LiveSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C27C2CA87543008DF1F8 /* LiveSensorViewController.swift */; };
 		8433C2812CA89E15008DF1F8 /* SensorChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C2802CA89E15008DF1F8 /* SensorChartView.swift */; };
 		8824F8F02C815754002246A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8824F8EF2C815754002246A0 /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		7C93F22C2CB8F7C40054CD97 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C93F22E2CB9E56C0054CD97 /* EditPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPostViewController.swift; sourceTree = "<group>"; };
 		8433C27C2CA87543008DF1F8 /* LiveSensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSensorViewController.swift; sourceTree = "<group>"; };
 		8433C2802CA89E15008DF1F8 /* SensorChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorChartView.swift; sourceTree = "<group>"; };
 		8824F8EC2C815754002246A0 /* skiliket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skiliket.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				8433C27C2CA87543008DF1F8 /* LiveSensorViewController.swift */,
 				8433C2802CA89E15008DF1F8 /* SensorChartView.swift */,
 				7C93F22C2CB8F7C40054CD97 /* NewsCollectionViewCell.swift */,
+				7C93F22E2CB9E56C0054CD97 /* EditPostViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				8433C27D2CA87543008DF1F8 /* LiveSensorViewController.swift in Sources */,
 				8824F8F02C815754002246A0 /* AppDelegate.swift in Sources */,
 				986B9EF82C9A10E700BB7F9C /* SingUpViewController.swift in Sources */,
+				7C93F22F2CB9E56C0054CD97 /* EditPostViewController.swift in Sources */,
 				8824F8F22C815754002246A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
