@@ -23,7 +23,7 @@ class TemperatureTableViewController: UITableViewController {
         timer = Timer.scheduledTimer(timeInterval: 20.0, target: self, selector: #selector(fetchTemperature), userInfo: nil, repeats: true)
     }
     @objc func fetchTemperature() {
-        guard let url = URL(string: "http://localhost:8765/temperature/") else { return }
+        guard let url = URL(string: "http://localhost:8000/temperature") else { return }
 
         let task = URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
             guard let self = self, let data = data, error == nil else { return }
