@@ -30,6 +30,12 @@
 		98732AC92CBF0A4100B615E0 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98732AC82CBF0A4100B615E0 /* Temperature.swift */; };
 		98732ACB2CBF0A6000B615E0 /* TemperaturePT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98732ACA2CBF0A6000B615E0 /* TemperaturePT.swift */; };
 		98732ACF2CBF183200B615E0 /* TemperatureChartSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98732ACE2CBF183200B615E0 /* TemperatureChartSwiftUIView.swift */; };
+		98732AD12CC0323D00B615E0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98732AD02CC0323D00B615E0 /* MapViewController.swift */; };
+		988590642CC13DB500A98EF3 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988590632CC13DB500A98EF3 /* TermsViewController.swift */; };
+		988590662CC155C000A98EF3 /* HumidityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988590652CC155C000A98EF3 /* HumidityTableViewController.swift */; };
+		988590682CC155D500A98EF3 /* AtmosphericPressureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988590672CC155D500A98EF3 /* AtmosphericPressureTableViewController.swift */; };
+		9885906A2CC155EF00A98EF3 /* WaterSensorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988590692CC155EF00A98EF3 /* WaterSensorTableViewController.swift */; };
+		9885906C2CC1560500A98EF3 /* SoundSensorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885906B2CC1560500A98EF3 /* SoundSensorTableViewController.swift */; };
 		98F65DFF2CA5002B00FBE344 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98F65DFE2CA5002B00FBE344 /* Nunito-VariableFont_wght.ttf */; };
 		98F893902C9A21310046DA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F8938F2C9A21310046DA87 /* Assets.xcassets */; };
 		98F893922C9B7E050046DA87 /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F893912C9B7E050046DA87 /* SingInViewController.swift */; };
@@ -62,6 +68,12 @@
 		98732AC82CBF0A4100B615E0 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		98732ACA2CBF0A6000B615E0 /* TemperaturePT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperaturePT.swift; sourceTree = "<group>"; };
 		98732ACE2CBF183200B615E0 /* TemperatureChartSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureChartSwiftUIView.swift; sourceTree = "<group>"; };
+		98732AD02CC0323D00B615E0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		988590632CC13DB500A98EF3 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		988590652CC155C000A98EF3 /* HumidityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumidityTableViewController.swift; sourceTree = "<group>"; };
+		988590672CC155D500A98EF3 /* AtmosphericPressureTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmosphericPressureTableViewController.swift; sourceTree = "<group>"; };
+		988590692CC155EF00A98EF3 /* WaterSensorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSensorTableViewController.swift; sourceTree = "<group>"; };
+		9885906B2CC1560500A98EF3 /* SoundSensorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSensorTableViewController.swift; sourceTree = "<group>"; };
 		98F65DFE2CA5002B00FBE344 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		98F8938F2C9A21310046DA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		98F893912C9B7E050046DA87 /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +172,12 @@
 				98732AC02CBEE76700B615E0 /* NewsViewController.swift */,
 				98732AC42CBEFF7300B615E0 /* NewsCollectionViewCell.swift */,
 				98732AC62CBF0A0000B615E0 /* TemperatureTableViewController.swift */,
+				98732AD02CC0323D00B615E0 /* MapViewController.swift */,
+				988590632CC13DB500A98EF3 /* TermsViewController.swift */,
+				988590652CC155C000A98EF3 /* HumidityTableViewController.swift */,
+				988590672CC155D500A98EF3 /* AtmosphericPressureTableViewController.swift */,
+				988590692CC155EF00A98EF3 /* WaterSensorTableViewController.swift */,
+				9885906B2CC1560500A98EF3 /* SoundSensorTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,9 +267,14 @@
 				98229AC02CBEA631009C3C91 /* RoutersTableViewController.swift in Sources */,
 				98732AC52CBEFF7300B615E0 /* NewsCollectionViewCell.swift in Sources */,
 				98732AC92CBF0A4100B615E0 /* Temperature.swift in Sources */,
+				9885906A2CC155EF00A98EF3 /* WaterSensorTableViewController.swift in Sources */,
+				98732AD12CC0323D00B615E0 /* MapViewController.swift in Sources */,
 				98F893922C9B7E050046DA87 /* SingInViewController.swift in Sources */,
+				9885906C2CC1560500A98EF3 /* SoundSensorTableViewController.swift in Sources */,
+				988590642CC13DB500A98EF3 /* TermsViewController.swift in Sources */,
 				98229AB82CBE9C07009C3C91 /* SwitchesViewController.swift in Sources */,
 				8824F8F02C815754002246A0 /* AppDelegate.swift in Sources */,
+				988590662CC155C000A98EF3 /* HumidityTableViewController.swift in Sources */,
 				986B9EF82C9A10E700BB7F9C /* SingUpViewController.swift in Sources */,
 				98229ABA2CBE9C1F009C3C91 /* SwitchesTableViewController.swift in Sources */,
 				98229AC22CBEA64A009C3C91 /* RoutersViewController.swift in Sources */,
@@ -261,6 +284,7 @@
 				8824F8F22C815754002246A0 /* SceneDelegate.swift in Sources */,
 				98732AC32CBEEB0E00B615E0 /* News.swift in Sources */,
 				98732AC12CBEE76700B615E0 /* NewsViewController.swift in Sources */,
+				988590682CC155D500A98EF3 /* AtmosphericPressureTableViewController.swift in Sources */,
 				98229AB42CBE9760009C3C91 /* TicketResponse.swift in Sources */,
 				98229AB02CBE9616009C3C91 /* HostsTableViewController.swift in Sources */,
 				98229ABE2CBEA24A009C3C91 /* Network.swift in Sources */,
