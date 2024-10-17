@@ -1,5 +1,6 @@
 function setup() {
   var server = new RealHTTPServer();
+  var PORT = 8000;
 
   var windSensorPin = 0;
   var soundSensorPin = A0;
@@ -51,7 +52,7 @@ function setup() {
     );
   });
 
-  server.start(8000);
+  server.start(PORT);
 }
 
 function loop() {}
