@@ -29,13 +29,15 @@ class TemperatureTableViewController: UITableViewController {
             guard let self = self, let data = data, error == nil else { return }
 
             do {
-                // Suponiendo que el servidor devuelve una cadena de texto como un JSON
-                let temperaturePT = try? JSONDecoder().decode(TemperaturePT.self, from: data)
-
-                // Actualizar los datos y la UI en el hilo principal
-                DispatchQueue.main.async {
-                    self.actualizarTablaCon(temperaturePT!)
+                print(data)
+                if let temperaturePT = try? JSONDecoder().decode(TemperaturePT.self, from: data) {
+                    DispatchQueue.main.async {
+                        self.actualizarTablaCon(temperaturePT)
+                    }
+                } else {
+                    print("No se pudo decodificar el JSON")
                 }
+
             } catch {
                 print("Error al decodificar los datos: \(error)")
             }
@@ -44,7 +46,7 @@ class TemperatureTableViewController: UITableViewController {
         task.resume()
     }
     func actualizarTablaCon(_ newT: TemperaturePT) {
-        let t = Temperature(value: String(newT.temperature), timeStamp: Date())
+        let t = Temperature(value: String(newT.value), timeStamp: Date())
         //Insertar al final
         //temperatures.append(t)
         //insertar al inicio
@@ -53,8 +55,7 @@ class TemperatureTableViewController: UITableViewController {
         // Insertar una nueva temperatura al final de la tabla
         //let newIndexPath = IndexPath(row: temperatures.count - 1, section: 0)
         //Insertar nueva temperatura al inicio de la tabla
-        let newIndexPath = IndexPath(row: 0, section: 0)
-        tableView.insertRows(at: [newIndexPath], with: .automatic)
+        tableView.reloadData()
     }
     // MARK: - Table view data source
 

@@ -66,7 +66,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         // Personalizar el pin
         if let markerAnnotationView = annotationView as? MKMarkerAnnotationView {
             markerAnnotationView.markerTintColor = UIColor.purple // Cambiar el color del pin
-            markerAnnotationView.glyphText = "📍" // Cambiar el símbolo del pin
         }
 
         return annotationView
